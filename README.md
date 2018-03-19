@@ -1,18 +1,14 @@
-# RPG
- * When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
-
-   * The player must then defeat all of the remaining fighters. Enemies should be moved to a different area of the screen.
-
-   * The player chooses an opponent by clicking on an enemy's picture.
-
-   * Once the player selects an opponent, that enemy is moved to a `defender area`.
-
-   * The player will now be able to click the `attack` button.
-     * Whenever the player clicks `attack`, their character damages the defender. The opponent will lose `HP` (health points). These points are displayed at the bottom of the defender's picture. 
-     * The opponent character will instantly counter the attack. When that happens, the player's character will lose some of their `HP`. These points are shown at the bottom of the player character's picture.
-
-3. The player will keep hitting the attack button in an effort to defeat their opponent.
-
-   * When the defender's `HP` is reduced to zero or below, remove the enemy from the `defender area`. The player character can now choose a new opponent.
-
-4. The player wins the game by defeating all enemy characters. The player loses the game the game if their character's `HP` falls to zero or below.
+Week 4 homework assignment:
+Crystals Collector Game
+This is a guessing game using numbers where the player will guess with numbers.
+There will be four crystals displayed as buttons on the page.
+The player will be shown a random number at the start of the game.
+When the player clicks on a crystal it will add a specific amount of points to the player's total score.
+The player wins the game if their total score matches the random number and the player loses the game if their total score goes above the random number.
+The amount of points each crystal adds is not shown to the player, but their total score is displayed and updated after each crystal is clicked.
+The number of games won and lost will be displayed.
+If the player successfully matches their total score to the random number they get 1 win, if the player's total score is above the random number the player get 1 loss, either way the game restarts.
+When the game is restarted, the player will be shown a new random number, all the crystals will now have 4 different hidden values, and the player's total score is reset to 0.
+Game design note:
+The random number shown at the start of the game should be between 19 - 120
+Each crystal should have a random hidden value between 1 - 12
